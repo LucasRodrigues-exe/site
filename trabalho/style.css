@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@media (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+}
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: "Jersey 10", serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: black;
+    background-color: blue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.584);
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+.box{
+    position: absolute;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 12%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.786);
+    margin-top: 10rem;
+}
+p[value="title"]{
+    font-family: "Jersey 10", serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+p[value="paragraph"]{
+    font-family: "Jersey 10", serif;
+    font-size: x-large;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.image{
+    width: 100px;
+    margin-left: 95px;
+}
+div[value="2"]{
+    position: absolute; 
+    margin-left: 25rem;
+}
+div[value="3"]{
+    position: absolute;
+    margin-left: 50rem;
+}
+#window{
+    position: relative;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+.main-text{
+    text-align: center;
+    font-family: "Jersey 10", serif;
+    font-size: 25px;
+}
+.main-box{
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 950px;
+    height: 200px;
+}
+#button{
+    background-color: blue;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+    font-family: "Jersey 10", serif;
+    font-size: larger;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin-top: 30rem;
+
+}
+#fundo{
+    width: 100%;
+    height: 100%;
+}
